@@ -1,0 +1,23 @@
+name: Blue Green Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Backend
+        run: docker build -t backend:green ./backend
+
+      - name: Build Frontend
+        run: docker build -t frontend:green ./frontend
+
+      - name: Deploy Green
+        run: docker compose -f docker-compose.green.yml up -d

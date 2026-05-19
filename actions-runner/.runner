@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "RIYASINGH",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus4.actions.githubusercontent.com/EZX9aZubXc8U3rVXT5uLhu0eJNjEWZVWc8rTzFzaYjT2EIRZKn/",
+  "gitHubUrl": "https://github.com/riyasingh2119/Blue-Green_Deployment",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
