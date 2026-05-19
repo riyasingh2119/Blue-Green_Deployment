@@ -5,3 +5,8 @@ build/
 coverage/
 *.log
 .vscode/
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log

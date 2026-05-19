@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "riyasingh2119/Blue-Green_Deployment",
+  "pipelineDirectory": "Blue-Green_Deployment",
+  "workspaceDirectory": "Blue-Green_Deployment\\Blue-Green_Deployment",
+  "repositories": {
+    "riyasingh2119/Blue-Green_Deployment": {
+      "repositoryPath": "Blue-Green_Deployment\\Blue-Green_Deployment",
+      "lastRunOn": "05/19/2026 13:35:10 +05:30"
+    }
+  },
+  "lastRunOn": "05/19/2026 13:35:10 +05:30"
+}
