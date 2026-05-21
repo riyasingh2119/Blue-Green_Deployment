@@ -19,5 +19,8 @@ jobs:
       - name: Build Frontend
         run: docker build -t frontend:green ./frontend
 
-      - name: Deploy Green
-        run: docker compose -f docker-compose.green.yml up -d
+      - name: Deploy Backend Green
+        run: kubectl apply -f kubernetes/backend/backend-green-deployment.yaml
+
+      - name: Deploy Frontend Green
+        run: kubectl apply -f kubernetes/frontend/frontend-green-deployment.yaml
